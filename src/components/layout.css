@@ -99,7 +99,8 @@ body::-webkit-scrollbar {
 }
 .nav{
   position: absolute;
-  top: 60%;
+  top: auto;
+  bottom: 32px;
   right: 5%;
   z-index: 2;
 }
@@ -116,7 +117,7 @@ body::-webkit-scrollbar {
 .nav a{
   color: #cfd8dc;
   text-decoration: none;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 .nav a:hover{
   opacity: 1;
@@ -137,10 +138,10 @@ body::-webkit-scrollbar {
   0%{
     transform: translateX(-100vw);
   }
-  70%{
+  66%{
     transform: translateX(-100vw);
   }
-  90%{
+  86%{
     transform: translateX(0);
   }
 }
@@ -154,10 +155,10 @@ body::-webkit-scrollbar {
   0%{
     transform: translateX(-100vw);
   }
-  74%{
+  70%{
     transform: translateX(-100vw);
   }
-  94%{
+  90%{
     transform: translateX(0);
   }
 }
@@ -171,10 +172,10 @@ body::-webkit-scrollbar {
   0%{
     transform: translateX(-100vw);
   }
-  78%{
+  74%{
     transform: translateX(-100vw);
   }
-  98%{
+  94%{
     transform: translateX(0);
   }
 }
@@ -185,6 +186,23 @@ body::-webkit-scrollbar {
   -o-animation: nav-item-4-animation 8s cubic-bezier(.17,.67,.08,.99);
 }
 @keyframes nav-item-4-animation{
+  0%{
+    transform: translateX(-100vw);
+  }
+  78%{
+    transform: translateX(-100vw);
+  }
+  98%{
+    transform: translateX(0);
+  }
+}
+.nav-item:nth-of-type(5){
+  animation: nav-item-5-animation 8s cubic-bezier(.17,.67,.08,.99);
+  -webkit-animation: nav-item-5-animation 8s cubic-bezier(.17,.67,.08,.99);
+  -moz-animation: nav-item-5-animation 8s cubic-bezier(.17,.67,.08,.99);
+  -o-animation: nav-item-5-animation 8s cubic-bezier(.17,.67,.08,.99);
+}
+@keyframes nav-item-5-animation{
   0%{
     transform: translateX(-100vw);
   }
@@ -203,12 +221,12 @@ body::-webkit-scrollbar {
 .fullscreen-video-separator{
   height: 100vh;
   min-width: 15vw;
-  border-right: 1px solid #cfd8dc;
+  border-right: 1px solid #b0ff57;
   flex: 1 1 0;
   text-align: center;
   transition: 0.3s;
-  opacity: 0.2;
-  color: #cfd8dc;
+  opacity: 1;
+  color: #b0ff57;
 }
 #fullscreen-video-separator-1{
   animation: fullscreen-video-separator-1-animation 6s cubic-bezier(.17,.67,.08,.99);
@@ -276,7 +294,6 @@ body::-webkit-scrollbar {
   }
 }
 .fullscreen-video-separator:hover {
-  opacity: 1;
   transform: scale(1.05, 1.05);
 }
 .fullscreen-video-separator:hover h4{
@@ -339,7 +356,7 @@ body::-webkit-scrollbar {
   -webkit-animation: imrs-logo-animation 5s ease;
   -moz-animation: imrs-logo-animation 5s ease;
   -o-animation: imrs-logo-animation 5s ease;
-  stroke: #cfd8dc;
+  stroke: #b0ff57;
   stroke-dasharray: 600;
   z-index: inherit;
   opacity: 0;
@@ -660,15 +677,23 @@ body::-webkit-scrollbar {
   height: 100%;
 }
 .pimg2{
-  background-image: url('/static/pitbike_five_bw.jpg');
+  background-image: url('/imrs-web/static/pitbike_five_bw.jpg');
   height: 700px;
 }
 .pimg3{
-  background-image: url('/static/pitbike_four_bw.jpg');
+  background-image: url('/imrs-web/static/pitbike_four_bw.jpg');
   height: 700px;
 }
 .pimg4{
-  background-image: url('/static/zurutuza_bw.jpg');
+  background-image: url('/imrs-web/static/zurutuza_bw.jpg');
+  height: 700px;
+}
+.pimg5{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(104, 104, 104, 0.5));
+  height: 500px;
+}
+.pimg6{
+  background-color: black;
   height: 700px;
 }
 .section{
@@ -684,6 +709,7 @@ body::-webkit-scrollbar {
 }
 .section h2{
   margin-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .section h4{
   opacity: 0.5;
@@ -747,7 +773,7 @@ body::-webkit-scrollbar {
   opacity: 0.6;
   left: 0;  
   background-color: #cfd8dc;
-  margin: 0;
+  margin: 32px 0 0 0;
   padding: 32px;
   text-align: center;
   font-size: 3rem;
@@ -771,7 +797,7 @@ body::-webkit-scrollbar {
 .section-main-content-body li:hover{
   filter: none;
   -webkit-filter: none;
-  transform: scale(1.02, 1.02) translate(16px, 0);
+  transform: scale(1.02, 1.02);
 }
 .section-main-content-body li span{
   opacity: 0.4;
@@ -818,15 +844,15 @@ body::-webkit-scrollbar {
   background-color: #b0ff57;
 }
 .pimg-container:hover .pimg2{
-  background-image: url('/static/pitbike_five.jpg');
+  background-image: url('/imrs-web/static/pitbike_five.jpg');
   transform: scale(1.1);
 }
 .pimg-container:hover .pimg3{
-  background-image: url('/static/pitbike_four.jpg');
+  background-image: url('/imrs-web/static/pitbike_four.jpg');
   transform: scale(1.1);
 }
 .pimg-container:hover .pimg4{
-  background-image: url('/static/zurutuza.jpg');
+  background-image: url('/imrs-web/static/zurutuza.jpg');
   transform: scale(1.1);
 }
 .arrow {
@@ -884,7 +910,6 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   opacity: 0.6;
   padding: 1em;
-  background: linear-gradient(rgba(255,255,255,.5), rgba(104, 104, 104, 0.5));
   transition: 0.3s ease;
 }
 .pimg-container:hover .antiguos-alumnos{
@@ -955,6 +980,37 @@ body::-webkit-scrollbar {
 }
 .profile-description p{
   margin-bottom: 0;
+}
+
+.patrocinadores-oro, .patrocinadores-plata, .patrocinadores-bronce{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+.sponsor{
+  position: relative;
+  grid-template-columns: 0.7fr 1fr;
+  float: left;
+  padding: 0;
+  margin: 1em;
+  display: table;
+}
+.sponsor-logo{
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.patrocinadores-oro img{
+  max-width: 450px;
+  max-height: 450px;
+}
+.patrocinadores-plata img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.patrocinadores img{
+  margin: auto;
 }
 
 article,

@@ -10,7 +10,7 @@ import {
 
 import Layout from "../components/layout"
 import ImrsLogo from "./../images/imrs_logo.svg"
-import BackgroundVideo from "./../videos/background-sin-audio.mp4"
+import BackgroundVideo from "./../videos/output.mp4"
 
 
 const SocialNetworks = () => (
@@ -55,16 +55,19 @@ const NavigationBar = () => (
   <nav className="nav">
     <ul className="nav-items">
       <li className="nav-item">
-        <a href="#section-2"><span>Cursos de Técnicas de Pilotaje</span></a>
+        <a href="#section-2"><span>Formación de Pilotos</span></a>
       </li>
       <li className="nav-item">
-        <a href="#section-3"><span>Cursos Regulares</span></a>
+        <a href="#section-3"><span>Cursos de Conducción Deportiva</span></a>
       </li>
       <li className="nav-item">
-        <a href="#section-4"><span>Cursos Regulares para Pilotos</span></a>
+        <a href="#section-4"><span>Alquiler de Motos de Circuito</span></a>
       </li>
       <li className="nav-item">
         <a href="#section-5"><span>Antiguos alumnos</span></a>
+      </li>
+      <li className="nav-item">
+        <a href="#section-6"><span>Patrocinadores</span></a>
       </li>
     </ul>
   </nav>
@@ -91,19 +94,17 @@ const MainContentParallax = () => (
     <div id="pimg-container-1" className="pimg-container"> 
       <div className="section-main-content">
         <section id="section-2" className="section">
-            <h2>Cursos de técnicas de pilotaje</h2>
-            <h4>COVID19: consultar disponibilidad</h4>
-        </section>      
-        <ul id="fechas-cursos">
-          <li className="close"><span>11 Octubre</span></li>
-          <li className="close"><span>8 Noviembre</span></li>
-          <li className="open"><span>13 Diciembre</span></li>
+            <h2>Formación de Pilotos</h2>
+            <h4>Entrenamientos regulares en técnicas de pilotaje todas las semanas de Septiembre a Junio en Karting Indoor Irun</h4>
+        </section>
+        <ul id="cursos-regulares-pilotos">
+          <li className="open"><span>Curso 2021 - 2022 plazas disponibles</span></li>
         </ul>
         <div className="section-main-content-body">
-          <ul id="fechas-cursos-info">
+          <ul id="cursos-regulares-pilotos-info">
             <li><span>Seguro Accidentes y Motos Incluídos en el Precio</span></li>
-            <li><span>Grupos Reducidos 4 Pax.</span></li>
-            <li><span><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reserva Previa (+34 696 925 130)</span></li>
+            <li><span>Grupos Reducidos de 6 Personas.</span></li>
+            <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
         </div>
       </div>
@@ -113,17 +114,15 @@ const MainContentParallax = () => (
     <div id="pimg-container-2" className="pimg-container">            
       <div className="section-main-content">
         <section id="section-3" className="section">
-            <h2>Cursos regulares</h2>
-            <h4>2020 - 2021</h4>
+            <h2>Cursos de Conducción Deportiva</h2>
+            <h4>Organizamos un curso al mes en las instalaciones del Karting Indoor Irun</h4>
         </section>
-        <ul id="cursos-regulares">
-          <li className="close"><span>Curso 2020 - 2021 completo</span></li>
-        </ul>
-        <div className="section-main-content-body">          
-          <ul id="cursos-regulares-info">
-            <li><span>Entrenamientos todas las semanas en técnicas de pilotaje</span></li>
-            <li><span>Ganar confianza y seguridad</span></li>
-            <li><span>Mejorarás tus tiempos hasta números insospechados</span></li>
+        <div className="section-main-content-body">
+          <ul id="fechas-cursos-info">
+            <li><span>Seguro Accidentes, Motos, Equipación y Catering Incluídos en el Precio</span></li>
+            <li><span>Grupos Reducidos de 6 Personas.</span></li>
+            <li><span>Precio: 160€/persona</span></li>
+            <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
         </div>
       </div>
@@ -133,17 +132,16 @@ const MainContentParallax = () => (
     <div id="pimg-container-3" className="pimg-container">
       <div className="section-main-content">
         <section id="section-4" className="section">
-            <h2>Cursos regulares para pilotos</h2>
-            <h4>2020 - 2021</h4>
-        </section>        
-        <ul id="cursos-regulares-pilotos">
-          <li className="open"><span>Curso 2020 - 2021 plazas disponibles</span></li>
-        </ul>
+            <h2>Alquiler de Motos de Circuito</h2>
+            <h4>Alquiler de motos de circuito con o sin monitor en el Circuito de Navarra</h4>
+        </section>
         <div className="section-main-content-body">          
-          <ul id="cursos-regulares-pilotos-info">
-            <li><span>Limpia, refina y actualiza tu pilotaje</span></li>
-            <li><span>Pasión, atención, esfuerzo y capacidad de trabajo en cada entrenamiento</span></li>
-            <li><span>Si lo tuyo es competir, esta es tu sección</span></li>
+          <ul id="alquiler-motos-info">
+          <li><span>Kawasaki Ninja 250R</span></li>
+          <li><span>Yamaha R3</span></li>
+          <li><span>Honda CBR600</span></li>
+          <li><span>Precio: desde 180€</span></li>
+          <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
         </div>
       </div>
@@ -159,7 +157,7 @@ const MainContentParallax = () => (
           <div id="unai-orradre" className="profile">
             <div className="profile-photo">
               <div className="photo-container">
-                <img src="/static/unai_orradre.png"/>
+                <img src="/imrs-web/static/unai_orradre.png"/>
               </div>
             </div>
             <div className="profile-info">
@@ -174,7 +172,7 @@ const MainContentParallax = () => (
           <div id="xabi-zurutuza" className="profile">
             <div className="profile-photo">
               <div className="photo-container">
-                <img src="/static/xabi_zurutuza.png"/>
+                <img src="/imrs-web/static/xabi_zurutuza.png"/>
               </div>
             </div>
             <div className="profile-info">
@@ -189,20 +187,66 @@ const MainContentParallax = () => (
           <div id="herve-novoa" className="profile">
             <div className="profile-photo">
               <div className="photo-container">
-                <img src="/static/herve_novoa.png"/>
+                <img src="/imrs-web/static/herve_novoa.png"/>
               </div>
             </div>
             <div className="profile-info">
               <div className="info-container">
                 <div className="profile-name"><span>Herve Novoa</span></div>
                 <div className="profile-description">
-                  <p>Piloto del Campeonato Open easyRace. 6º posición en la clasificación general.</p>
+                  <p>Piloto del Campeonato Open easyRace. 6º posición en la clasificación.</p>
                 </div>
               </div>            
             </div>
           </div>
         </div>
       </div>
+      <Fab/>
+      <div className="pimg5"/>
+    </div>
+    <div id="pimg-container-5" className="pimg-container">
+      <div className="section-main-content">
+        <section id="section-6" className="section">
+            <h2>Patrocinadores</h2>
+        </section>
+        <div className="patrocinadores-oro">
+          <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/blackside.png"/>
+            </div>
+          </div>
+          <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/bimtrazer-blackbg.png"/>
+            </div>
+          </div>
+          <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/forestpioneer.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="patrocinadores-plata">
+        <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/sotxotaberna.png"/>
+            </div>
+          </div>
+          <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/mrelectric.png"/>
+            </div>
+          </div>
+          <div className="sponsor">
+            <div className="sponsor-logo">
+              <img src="/imrs-web/static/etxelur.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="patrocinadores-bronce"></div>
+      </div>
+      <Fab/>
+      <div className="pimg6"/>
     </div>
   </>
 )
