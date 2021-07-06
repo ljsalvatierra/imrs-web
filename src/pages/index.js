@@ -148,106 +148,100 @@ const MainContentParallax = () => (
       <Fab/>
       <div className="pimg4"/>
     </div>
-    <div id="pimg-container-4" className="pimg-container">
-      <div className="section-main-content">
-        <section id="section-5" className="section">
-            <h2>Antiguos alumnos</h2>
-        </section>
-        <div className="antiguos-alumnos">
-          <div id="unai-orradre" className="profile">
-            <div className="profile-photo">
-              <div className="photo-container">
-                <img src="/imrs-web/static/unai_orradre.png"/>
-              </div>
-            </div>
-            <div className="profile-info">
-              <div className="info-container">
-                <div className="profile-name"><span>Unai Orradre</span></div>
-                <div className="profile-description">
-                  <p>Piloto del Mundial SBK300. 7ª posición en el campeonato 2020.</p>
-                </div>
-              </div>            
+    <div className="antiguos-alumnos-section">
+      <section id="section-5" className="section">
+          <h2>Antiguos alumnos</h2>
+      </section>
+      <div className="antiguos-alumnos">
+        <div id="unai-orradre" className="profile">
+          <div className="profile-photo">
+            <div className="photo-container">
+              <img src="/imrs-web/static/unai_orradre.png"/>
             </div>
           </div>
-          <div id="xabi-zurutuza" className="profile">
-            <div className="profile-photo">
-              <div className="photo-container">
-                <img src="/imrs-web/static/xabi_zurutuza.png"/>
+          <div className="profile-info">
+            <div className="info-container">
+              <div className="profile-name"><span>Unai Orradre</span></div>
+              <div className="profile-description">
+                <p>Piloto del Mundial SBK300. 7ª posición en el campeonato 2020.</p>
               </div>
-            </div>
-            <div className="profile-info">
-              <div className="info-container">
-                <div className="profile-name"><span>Xabi Zurutuza</span></div>
-                <div className="profile-description">
-                  <p>Piloto del Campeonato ESBK PreMoto3 en la que ha logrado 2 victorias.</p>
-                </div>
-              </div>            
+            </div>            
+          </div>
+        </div>
+        <div id="xabi-zurutuza" className="profile">
+          <div className="profile-photo">
+            <div className="photo-container">
+              <img src="/imrs-web/static/xabi_zurutuza.png"/>
             </div>
           </div>
-          <div id="herve-novoa" className="profile">
-            <div className="profile-photo">
-              <div className="photo-container">
-                <img src="/imrs-web/static/herve_novoa.png"/>
+          <div className="profile-info">
+            <div className="info-container">
+              <div className="profile-name"><span>Xabi Zurutuza</span></div>
+              <div className="profile-description">
+                <p>Piloto del Campeonato ESBK PreMoto3 en la que ha logrado 2 victorias.</p>
               </div>
+            </div>            
+          </div>
+        </div>
+        <div id="herve-novoa" className="profile">
+          <div className="profile-photo">
+            <div className="photo-container">
+              <img src="/imrs-web/static/herve_novoa.png"/>
             </div>
-            <div className="profile-info">
-              <div className="info-container">
-                <div className="profile-name"><span>Herve Novoa</span></div>
-                <div className="profile-description">
-                  <p>Piloto del Campeonato Open easyRace. 6º posición en la clasificación.</p>
-                </div>
-              </div>            
-            </div>
+          </div>
+          <div className="profile-info">
+            <div className="info-container">
+              <div className="profile-name"><span>Herve Novoa</span></div>
+              <div className="profile-description">
+                <p>Piloto del Campeonato Open easyRace. 6º posición en la clasificación.</p>
+              </div>
+            </div>            
           </div>
         </div>
       </div>
-      <Fab/>
-      <div className="pimg5"/>
     </div>
-    <div id="pimg-container-5" className="pimg-container">
-      <div className="section-main-content">
-        <section id="section-6" className="section">
-            <h2>Patrocinadores</h2>
-        </section>
-        <div className="patrocinadores-oro">
-          <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/blackside.png"/>
-            </div>
-          </div>
-          <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/bimtrazer-blackbg.png"/>
-            </div>
-          </div>
-          <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/forestpioneer.png"/>
-            </div>
+    <Fab/>
+    <div className="patrocinadores-section">
+      <section id="section-6" className="section">
+          <h2>Patrocinadores</h2>
+      </section>
+      <div className="patrocinadores-oro">
+        <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/blackside.png"/>
           </div>
         </div>
-        <div className="patrocinadores-plata">
-        <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/sotxotaberna.png"/>
-            </div>
-          </div>
-          <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/mrelectric.png"/>
-            </div>
-          </div>
-          <div className="sponsor">
-            <div className="sponsor-logo">
-              <img src="/imrs-web/static/etxelur.png"/>
-            </div>
+        <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/bimtrazer-blackbg.png"/>
           </div>
         </div>
-        <div className="patrocinadores-bronce"></div>
+        <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/forestpioneer.png"/>
+          </div>
+        </div>
       </div>
-      <Fab/>
-      <div className="pimg6"/>
+      <div className="patrocinadores-plata">
+      <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/sotxotaberna.png"/>
+          </div>
+        </div>
+        <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/mrelectric.png"/>
+          </div>
+        </div>
+        <div className="patrocinador">
+          <div className="patrocinador-logo">
+            <img src="/imrs-web/static/etxelur.png"/>
+          </div>
+        </div>
+      </div>
+      <div className="patrocinadores-bronce"></div>
     </div>
+    <Fab/>
   </>
 )
 
