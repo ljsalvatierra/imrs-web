@@ -102,7 +102,6 @@ const MainContentParallax = () => (
         </ul>
         <div className="section-main-content-body">
           <ul id="cursos-regulares-pilotos-info">
-            <li><span>Seguro Accidentes y Motos Incluídos en el Precio</span></li>
             <li><span>Grupos Reducidos de 6 Personas.</span></li>
             <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
