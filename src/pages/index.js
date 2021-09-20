@@ -55,7 +55,7 @@ const NavigationBar = () => (
   <nav className="nav">
     <ul className="nav-items">
       <li className="nav-item">
-        <a href="#section-2"><span>Formación de Pilotos</span></a>
+        <a href="#section-2"><span>Clases Regulares</span></a>
       </li>
       <li className="nav-item">
         <a href="#section-3"><span>Cursos de Conducción Deportiva</span></a>
@@ -64,7 +64,7 @@ const NavigationBar = () => (
         <a href="#section-4"><span>Alquiler de Motos de Circuito</span></a>
       </li>
       <li className="nav-item">
-        <a href="#section-5"><span>Antiguos alumnos</span></a>
+        <a href="#section-5"><span>Gestión</span></a>
       </li>
       <li className="nav-item">
         <a href="#section-6"><span>Patrocinadores</span></a>
@@ -94,7 +94,7 @@ const MainContentParallax = () => (
     <div id="pimg-container-1" className="pimg-container"> 
       <div className="section-main-content">
         <section id="section-2" className="section">
-            <h2>Formación de Pilotos</h2>
+            <h2>Clases Regulares</h2>
             <h4>Entrenamientos regulares en técnicas de pilotaje todas las semanas de Septiembre a Junio en Karting Indoor Irun</h4>
         </section>
         <ul id="cursos-regulares-pilotos">
@@ -102,7 +102,7 @@ const MainContentParallax = () => (
         </ul>
         <div className="section-main-content-body">
           <ul id="cursos-regulares-pilotos-info">
-            <li><span>Grupos Reducidos de 6 Personas.</span></li>
+            <li><span>Grupos reducidos de 6 personas.</span></li>
             <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
         </div>
@@ -118,8 +118,8 @@ const MainContentParallax = () => (
         </section>
         <div className="section-main-content-body">
           <ul id="fechas-cursos-info">
-            <li><span>Seguro Accidentes, Motos, Equipación y Catering Incluídos en el Precio</span></li>
-            <li><span>Grupos Reducidos de 6 Personas.</span></li>
+            <li><span>Seguro accidentes, motos, equipación y catering incluídos en el precio</span></li>
+            <li><span>Grupos reducidos de 6 personas.</span></li>
             <li><span>Precio: 160€/persona</span></li>
             <li><span><a href="tel:+34696925130"><FontAwesomeIcon id="fci-whatsapp-icon" icon={faWhatsapp} size="1x"/> Reservas (+34 696 925 130)</a></span></li>
           </ul>
@@ -147,59 +147,25 @@ const MainContentParallax = () => (
       <Fab/>
       <div className="pimg4"/>
     </div>
-    <div className="antiguos-alumnos-section">
-      <section id="section-5" className="section">
-          <h2>Antiguos alumnos</h2>
-      </section>
-      <div className="antiguos-alumnos">
-        <div id="unai-orradre" className="profile">
-          <div className="profile-photo">
-            <div className="photo-container">
-              <img src="/imrs-web/static/unai_orradre.png"/>
-            </div>
-          </div>
-          <div className="profile-info">
-            <div className="info-container">
-              <div className="profile-name"><span>Unai Orradre</span></div>
-              <div className="profile-description">
-                <p>Piloto del Mundial SBK300. 7ª posición en el campeonato 2020.</p>
-              </div>
-            </div>            
-          </div>
-        </div>
-        <div id="xabi-zurutuza" className="profile">
-          <div className="profile-photo">
-            <div className="photo-container">
-              <img src="/imrs-web/static/xabi_zurutuza.png"/>
-            </div>
-          </div>
-          <div className="profile-info">
-            <div className="info-container">
-              <div className="profile-name"><span>Xabi Zurutuza</span></div>
-              <div className="profile-description">
-                <p>Piloto del Campeonato ESBK PreMoto3 en la que ha logrado 2 victorias.</p>
-              </div>
-            </div>            
-          </div>
-        </div>
-        <div id="herve-novoa" className="profile">
-          <div className="profile-photo">
-            <div className="photo-container">
-              <img src="/imrs-web/static/herve_novoa.png"/>
-            </div>
-          </div>
-          <div className="profile-info">
-            <div className="info-container">
-              <div className="profile-name"><span>Herve Novoa</span></div>
-              <div className="profile-description">
-                <p>Piloto del Campeonato Open easyRace. 6º posición en la clasificación.</p>
-              </div>
-            </div>            
-          </div>
+    <div id="pimg-container-4" className="pimg-container">
+      <div className="section-main-content">
+        <section id="section-5" className="section">
+            <h2>Gestión</h2>
+            <h4>Luis Ramos</h4>
+        </section>
+        <div className="section-main-content-body">
+          <ul id="gestion-info">
+              <li><span>Director escuela motociclismo IMRS</span></li>
+              <li><span>8 años director en Lorenzo Competición Navarra</span></li>
+              <li><span>Colaboraciones en Ksb sport</span></li>
+              <li><span>Cargo oficial federación nacional de motociclismo (Director de competición, comisario deportivo, cronometrador, comisario técnico)</span></li>
+              <li><span>Amplia experiencia como entrenador en el campeonato de España de velocidad (Liga inter-escuelas, Cuna campeones, diferentes campeonatos y categorías de Supermoto y velocidad)</span></li>
+          </ul>
         </div>
       </div>
+      <Fab/>
+      <div className="pimg5"/>
     </div>
-    <Fab/>
     <div className="patrocinadores-section">
       <section id="section-6" className="section">
           <h2>Patrocinadores</h2>

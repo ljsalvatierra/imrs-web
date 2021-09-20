@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
 .sn-icon-info{
   color: #cfd8dc;
   margin-right: 32px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
@@ -467,9 +467,8 @@ body::-webkit-scrollbar {
   }
   .section-main-content-body li{
     padding: 4px 32px !important;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
-    letter-spacing: 4px;
   }
   .section-main-content-label{
     height: 50% !important;
@@ -536,9 +535,8 @@ body::-webkit-scrollbar {
   }
   .section-main-content-body li{
     padding: 4px 8px !important;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
-    letter-spacing: 4px;
   }
   .section-main-content-label{
     height: 50% !important;
@@ -602,9 +600,8 @@ body::-webkit-scrollbar {
   }
   .section-main-content-body li{
     padding: 4px 8px !important;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1;
-    letter-spacing: 4px;
   }
   .section-main-content-label{
     height: 50% !important;
@@ -665,7 +662,7 @@ body::-webkit-scrollbar {
   z-index: 0;
 }
 
-.pimg1,.pimg2,.pimg3,.pimg4{
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5{
   position: relative;
   opacity: 0.2;
   background-position: center;
@@ -693,8 +690,8 @@ body::-webkit-scrollbar {
   height: 700px;
 }
 .pimg5{
-  background: linear-gradient(rgba(255,255,255,.5), rgba(104, 104, 104, 0.5));
-  height: 100%;
+  background-image: url('/imrs-web/static/logo.jpg');
+  height: 900px;
 }
 .pimg6{
   background-color: black;
@@ -713,12 +710,16 @@ body::-webkit-scrollbar {
 }
 .section h2{
   margin-bottom: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Six caps', Arial, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 .section h4{
   opacity: 0.5;
   margin-top: 8px;
   margin-bottom: 0;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 .section-main-content{
   position: absolute;
@@ -774,17 +775,16 @@ body::-webkit-scrollbar {
 }
 .section-main-content-body{
   position: relative;
-  opacity: 0.6;
+  opacity: 0.7;
   left: 0;  
   background-color: #cfd8dc;
   margin: 32px 0 0 0;
   padding: 32px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: 4px;
-  font-family: 'Six Caps', sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: 0.3s;
   z-index: 3;
 }
@@ -861,6 +861,10 @@ body::-webkit-scrollbar {
 }
 .pimg-container:hover .pimg4{
   background-image: url('/imrs-web/static/zurutuza.jpg');
+  transform: scale(1.1);
+}
+.pimg-container:hover .pimg5{
+  background-image: url('/imrs-web/static/logo.jpg');
   transform: scale(1.1);
 }
 .arrow {
